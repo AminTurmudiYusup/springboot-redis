@@ -1,7 +1,7 @@
 # springboot-redis
-This project describe how caching work using redis and spring boot
-HOW TO IMPLEMENT CACHING USING REDIS IN SPRING BOOT APPLICATION
-Prerequisite
+# This project describe how caching work using redis and spring boot
+## HOW TO IMPLEMENT CACHING USING REDIS IN SPRING BOOT APPLICATION
+## Prerequisite
 1. Your machine already installed redis or your machine run redis inside docker container(if not installed, you can see my previous tutorial = https://youtu.be/6-n3XTpoEMA)
 2. Your redis already run
 3. you understand the concept of caching
@@ -45,9 +45,9 @@ INSERT INTO `dns-multi-pro`.payment_type
 VALUES(2, '2023-01-03 00:00:00', 'Payment Using Union Pay', 'Union Pay', 'Active', '2023-01-03 00:00:00');
 
 11.try to test app
-   - expected result of test
-     . when first request call api get list of payment type the response will delay 3 second
-     . when second request call api get list of payment type the response will more faster
+   ## expected result of test
+     ### when first request call api get list of payment type the response will delay 3 second
+     ### when second request call api get list of payment type the response will more faster
 
 
 SUCCESS, Happy learning and happy sharing !!!
